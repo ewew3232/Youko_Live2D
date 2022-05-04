@@ -1,0 +1,47 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ヨウコLive2d.moc3",
+		"Textures": [
+			"ヨウコLive2d.2048/texture_00.png"
+		],
+		"DisplayInfo": "ヨウコLive2d.cdi3.json",
+		"Motions": {
+			"Test": [
+				{
+					"File": "motion/def.motion3.json"
+				},
+				{
+					"File": "motion/mesorasi.motion3.json"
+				},
+				{
+					"File": "motion/tozikuti.motion3.json"
+				},
+				{
+					"File": "motion/uwame.motion3.json"
+				},
+				{
+					"File": "motion/yure.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	],
+	"HitAreas": []
+}
